@@ -1,80 +1,74 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f7f7f7;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f7f7f7;
 }
 
 nav {
-  background-color: #333;
-  color: #fff;
-  padding: 1em;
-  text-align: center;
+background-color: #333;
+color: #fff;
+padding: 1em;
+text-align: center;
 }
 
 nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+list-style: none;
+margin: 0;
+padding: 0;
 }
 
 nav li {
-  display: inline-block;
-  margin-right: 20px;
+display: inline-block;
+margin-right: 20px;
 }
 
 nav a {
-  color: #fff;
-  text-decoration: none;
+color: #fff;
+text-decoration: none;
 }
 
 .main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2em;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 2em;
 }
 
 section {
-  background-color: #fff;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+background-color: #fff;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+display: none;
 }
 
-h1, h2 {
-  color: #333;
+section:target {
+display: block;
 }
 
-.buttons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
+.buttons button {
+margin: 10px;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+background-color: #337ab7;
+color: #fff;
+cursor: pointer;
 }
 
-button {
-  margin: 10px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: #337ab7;
-  color: #fff;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #23527c;
+.buttons button:hover {
+background-color: #23527c;
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
-  padding: 1em;
-  text-align: center;
-  clear: both;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+background-color: #333;
+color: #fff;
+padding: 1em;
+text-align: center;
+clear: both;
+position: fixed;
+bottom: 0;
+width: 100%;
 }
