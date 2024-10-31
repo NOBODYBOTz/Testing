@@ -2,20 +2,120 @@
 <html>
 <head>
   <title>Telegram Bots, Channels, and Groups</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2em;
+    }
+    
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    li {
+      margin-bottom: 20px;
+    }
+    
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+    
+    a {
+      text-decoration: none;
+      color: #337ab7;
+    }
+  </style>
 </head>
 <body>
   <nav>
     <ul>
-      <li><a href="bots.html">Our Bots</a></li>
-      <li><a href="channels.html">Our Channels</a></li>
-      <li><a href="groups.html">Our Groups</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#bots">Our Bots</a></li>
+      <li><a href="#channels">Our Channels</a></li>
+      <li><a href="#groups">Our Groups</a></li>
     </ul>
   </nav>
   <main>
-    <h1>Welcome to Our Telegram Community!</h1>
+    <h1 id="home">Welcome to Our Telegram Community!</h1>
     <p>Explore our bots, channels, and groups below.</p>
+    
+    <h2 id="bots">Our Bots</h2>
+    <ul>
+      <li>
+        <a href="#">Bot Name</a>
+        <img src="bot1.png" alt="Bot 1">
+        <p>Description of Bot 1</p>
+      </li>
+      <li>
+        <a href="#">Bot Name</a>
+        <img src="bot2.png" alt="Bot 2">
+        <p>Description of Bot 2</p>
+      </li>
+    </ul>
+    
+    <h2 id="channels">Our Channels</h2>
+    <ul>
+      <li>
+        <a href="#">Channel Name</a>
+        <img src="channel1.png" alt="Channel 1">
+        <p>Description of Channel 1</p>
+      </li>
+      <li>
+        <a href="#">Channel Name</a>
+        <img src="channel2.png" alt="Channel 2">
+        <p>Description of Channel 2</p>
+      </li>
+    </ul>
+    
+    <h2 id="groups">Our Groups</h2>
+    <ul>
+      <li>
+        <a href="#">Group Name</a>
+        <img src="group1.png" alt="Group 1">
+        <p>Description of Group 1</p>
+      </li>
+      <li>
+        <a href="#">Group Name</a>
+        <img src="group2.png" alt="Group 2">
+        <p>Description of Group 2</p>
+      </li>
+    </ul>
   </main>
-  <script src="script.js"></script>
 </body>
 </html>
